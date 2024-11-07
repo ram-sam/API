@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 const bcrypt = require('bcryptjs')
 
+// definição do esquema de usuário
 const UserSchema = new mongoose.Schema({
     name: {
         type: String,
