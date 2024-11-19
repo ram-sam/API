@@ -1,7 +1,9 @@
+// criar conexão com o banco de dados (MongoDB) usando Mongoose
+
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 
-dotenv.config();
+dotenv.config(); 
 
 // conectar ao MongoDB
 const connectDB = async () => {
